@@ -3,7 +3,7 @@
     $.ajax({
         url:"/systemSet/readDateTimeSet.do",
         type:"post",
-        data:"",
+        data:{},
         dataType:"json",
         success:function(data){
             var serverTime = data.nowTime.split(" ")[1],
