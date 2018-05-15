@@ -1,7 +1,7 @@
 # 从服务器获取时间并自动加1生成对应的时间
 ```
-    $.ajax({
-        url:"/systemSet/readDateTimeSet.do",
+    $.ajax({夺
+        url:"/systemSet/readDateTimeSet.do",
         type:"post",
         data:{},
         dataType:"json",
